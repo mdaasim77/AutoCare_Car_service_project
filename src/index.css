@@ -5,7 +5,11 @@
 /* .................................................................................. */
 
 /* Navbar code */
-
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
 nav {
   background-color: #4e5586;
 }
@@ -21,12 +25,12 @@ nav {
 }
 .search-input {
   background-color: #4e5586;
-  border: 1px solid white;
+
   color: white;
-  height: 40px;
-  border-radius: 8px;
+  height: 25px;
   padding: 15px;
   outline: none;
+  box-shadow: none;
 }
 .search-input::placeholder {
   color: #fff;
@@ -50,4 +54,7 @@ nav {
 #list li a:hover {
   background-color: #fff;
   color: #4e5586;
+}
+.email {
+  font-size: 12px;
 }
