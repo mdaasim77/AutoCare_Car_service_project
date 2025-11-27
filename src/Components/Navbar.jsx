@@ -6,13 +6,13 @@ import DB_Card from "./DB_Card";
 export default function Navbar() {
   return (
     <>
-      <div className="row ">
+      <div className="row  ">
         <div className="col-2 border border-danger">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
           assumenda consequuntur ratione commodi, consequatur facere saepe enim
           magnam repellat ipsa?
         </div>
-        <div className="col-10 border border-success ">
+        <div className="col-10 border border-primary">
           {/* ................................................ */}
           {/* ................................................ */}
 
