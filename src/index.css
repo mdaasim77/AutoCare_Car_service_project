@@ -133,16 +133,27 @@ nav {
 /* Job pipeline code of box 1 */
 
 .pipelinecardptag {
-  padding: 8px 12px;
+  padding: 5px;
   border-radius: 18px;
   background-color: #f0f0f0;
   color: #b5b5b5;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 8px;
+  font-weight: 300;
+  text-align: center;
 }
 .pipelinecardptag:hover {
   background-color: #034f95;
   color: #fff;
+}
+.pipeline-line {
+  margin-top: 15px;
+  /* background-color: red; */
+  padding: 0px -10px;
+}
+.pipeline-line img {
+  width: 30px;
+  margin: 0px;
+  padding: 0px;
 }
 .dropdwnbtn {
   border: 2px solid #e8e8e8;

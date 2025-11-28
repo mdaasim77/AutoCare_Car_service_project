@@ -74,18 +74,48 @@ export default function Job_CardPipeline() {
             <div className="border purpleclr rounded-4 ms-4">
               {/*card code start */}
               <div className="card m-4">
-                <div className="d-flex justify-content-center">
-                  <p className="pipelinecardptag border m-3">Intake</p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">Estimate</p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">
-                    Waiting Approval
-                  </p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">Billing</p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">Delivered</p>
+                <div className="d-flex">
+                  <div className="pipelinecardptag border m-3">
+                    <h6>Intake</h6>
+                  </div>
+
+                  <img
+                    className="mt-3 pipeline-line"
+                    src="\assets\line.png"
+                    alt=""
+                  />
+
+                  <div className="pipelinecardptag border m-3">
+                    <h6>Estimate</h6>
+                  </div>
+
+                  <img
+                    className="mt-3 pipeline-line"
+                    src="\assets\line.png"
+                    alt=""
+                  />
+
+                  <div className="pipelinecardptag border m-3">
+                    <h6>Waiting Approval</h6>
+                  </div>
+
+                  <img
+                    className="mt-3 pipeline-line"
+                    src="\assets\line.png"
+                    alt=""
+                  />
+
+                  <div className="pipelinecardptag border m-3">
+                    <h6>Billing</h6>
+                  </div>
+
+                  <img
+                    className="mt-3 pipeline-line"
+                    src="\assets\line.png"
+                    alt=""
+                  />
+
+                  <div className="pipelinecardptag border m-3">Delivered</div>
                 </div>
                 <div className="d-flex ms-4">
                   <img src="\assets\profile.svg" alt="" />
@@ -102,64 +132,7 @@ export default function Job_CardPipeline() {
                   <h5>Type: Service</h5>
                 </div>
               </div>
-              <div className="card m-4">
-                <div className="d-flex justify-content-center">
-                  <p className="pipelinecardptag border m-3">Intake</p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">Estimate</p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">
-                    Waiting Approval
-                  </p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">Billing</p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">Delivered</p>
-                </div>
-                <div className="d-flex ms-4">
-                  <img src="\assets\profile.svg" alt="" />
-                  <div className="mx-5 mt-3">
-                    <h2>Mohd Aasim</h2>
-                    <p className="cardtxt cardtxt1">Today, 10:30 AM</p>
-                    <p className="cardtxt mb-2">Job Card Number: JB000L</p>
-                  </div>
-                </div>
-                <hr className="m-4" />
-                <div className="d-flex justify-content-around">
-                  <h5>Tata Altroz</h5>
-                  <h5>ODO: 23562</h5>
-                  <h5>Type: Service</h5>
-                </div>
-              </div>
-              <div className="card m-4">
-                <div className="d-flex justify-content-center">
-                  <p className="pipelinecardptag border m-3">Intake</p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">Estimate</p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">
-                    Waiting Approval
-                  </p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">Billing</p>
-                  <hr />
-                  <p className="pipelinecardptag border m-3">Delivered</p>
-                </div>
-                <div className="d-flex ms-4">
-                  <img src="\assets\profile.svg" alt="" />
-                  <div className="mx-5 mt-3">
-                    <h2>Mohd Aasim</h2>
-                    <p className="cardtxt cardtxt1">Today, 10:30 AM</p>
-                    <p className="cardtxt mb-2">Job Card Number: JB000L</p>
-                  </div>
-                </div>
-                <hr className="m-4" />
-                <div className="d-flex justify-content-around">
-                  <h5>Tata Altroz</h5>
-                  <h5>ODO: 23562</h5>
-                  <h5>Type: Service</h5>
-                </div>
-              </div>
+
               {/*card code start */}
             </div>
           </div>
