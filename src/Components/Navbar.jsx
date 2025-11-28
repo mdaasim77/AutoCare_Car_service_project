@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import DB_Card from "./DB_Card";
+import Job_CardPipeline from "./Job_CardPipeline";
 
 export default function Navbar() {
   return (
@@ -96,6 +97,7 @@ export default function Navbar() {
           {/* ................................................ */}
 
           <DB_Card />
+          <Job_CardPipeline />
         </div>
       </div>
     </>
