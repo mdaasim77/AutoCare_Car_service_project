@@ -79,43 +79,29 @@ export default function Job_CardPipeline() {
                     <h6>Intake</h6>
                   </div>
 
-                  <img
-                    className="mt-3 pipeline-line"
-                    src="\assets\line.png"
-                    alt=""
-                  />
+                  <hr className="border rounded-3 border-dark" />
 
                   <div className="pipelinecardptag border m-3">
                     <h6>Estimate</h6>
                   </div>
 
-                  <img
-                    className="mt-3 pipeline-line"
-                    src="\assets\line.png"
-                    alt=""
-                  />
+                  <hr className="border rounded-3 border-dark" />
 
                   <div className="pipelinecardptag border m-3">
                     <h6>Waiting Approval</h6>
                   </div>
 
-                  <img
-                    className="mt-3 pipeline-line"
-                    src="\assets\line.png"
-                    alt=""
-                  />
+                  <hr className="border rounded-3 border-dark" />
 
                   <div className="pipelinecardptag border m-3">
                     <h6>Billing</h6>
                   </div>
 
-                  <img
-                    className="mt-3 pipeline-line"
-                    src="\assets\line.png"
-                    alt=""
-                  />
+                  <hr className="border rounded-3 border-dark" />
 
-                  <div className="pipelinecardptag border m-3">Delivered</div>
+                  <div className="pipelinecardptag border m-3">
+                    <h6>Delivered</h6>
+                  </div>
                 </div>
                 <div className="d-flex ms-4">
                   <img src="\assets\profile.svg" alt="" />
