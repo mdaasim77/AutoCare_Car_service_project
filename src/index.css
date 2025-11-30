@@ -175,3 +175,7 @@ nav {
 .cardtxt1 {
   margin-bottom: -5px;
 }
+.horizontalline {
+  width: 40px;
+  padding: 0px;
+}

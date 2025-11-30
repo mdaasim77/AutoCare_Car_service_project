@@ -79,25 +79,37 @@ export default function Job_CardPipeline() {
                     <h6>Intake</h6>
                   </div>
 
-                  <hr className="border rounded-3 border-dark" />
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-5 "
+                  ></div>
 
                   <div className="pipelinecardptag border m-3">
                     <h6>Estimate</h6>
                   </div>
 
-                  <hr className="border rounded-3 border-dark" />
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-5 "
+                  ></div>
 
                   <div className="pipelinecardptag border m-3">
                     <h6>Waiting Approval</h6>
                   </div>
 
-                  <hr className="border rounded-3 border-dark" />
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-5 "
+                  ></div>
 
                   <div className="pipelinecardptag border m-3">
                     <h6>Billing</h6>
                   </div>
 
-                  <hr className="border rounded-3 border-dark" />
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-5 "
+                  ></div>
 
                   <div className="pipelinecardptag border m-3">
                     <h6>Delivered</h6>
