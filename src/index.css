@@ -179,3 +179,54 @@ nav {
   width: 40px;
   padding: 0px;
 }
+
+/* ................................................................ */
+
+/* ................................................................ */
+
+/* ................................................................ */
+
+/* Job pipeline code of box 2 */
+
+.todayjob {
+  color: #4e5586;
+  font-size: 24px;
+  font-weight: 500;
+}
+.viewallbtn {
+  color: #4e5586;
+  border: 1px solid #e8e8e8;
+  background-color: #d3cbfb;
+  border-radius: 12px;
+}
+.inp {
+  background-color: #d0eae7;
+  border-radius: 12px;
+  color: #2c2c2c;
+  font-size: 18px;
+  font-weight: 400;
+  width: auto;
+  padding: 5px 12px;
+}
+.box2p {
+  font-size: 15px;
+  color: #a3a3a3;
+}
+.viewbtn {
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  background-color: #fff;
+  color: #1961a3;
+}
+#box1cng {
+  background-color: #ddddfa;
+}
+#box2cng {
+  background-color: #f2e5ff;
+}
+#box3cng {
+  background-color: #e0e5e2;
+}
+#box4cng {
+  background-color: #fbeaca;
+}
