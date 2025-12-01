@@ -3,17 +3,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import DB_Card from "./DB_Card";
 import Job_CardPipeline from "./Job_CardPipeline";
+import UpComingSrv from "./UpComingSrv";
 
 export default function Navbar() {
   return (
     <>
       <div className="row  ">
-        <div className="col-2 border border-danger">
+        <div className="col-2">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
           assumenda consequuntur ratione commodi, consequatur facere saepe enim
           magnam repellat ipsa?
         </div>
-        <div className="col-10 border border-primary">
+        <div className="col-10">
           {/* ................................................ */}
           {/* ................................................ */}
 
@@ -98,6 +99,7 @@ export default function Navbar() {
 
           <DB_Card />
           <Job_CardPipeline />
+          <UpComingSrv />
         </div>
       </div>
     </>

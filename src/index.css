@@ -166,6 +166,8 @@ nav {
   overflow-y: scroll;
   scrollbar-width: none;
   height: 350px;
+  height: 440px;
+  /* background-color: red; =================================================================== */
 }
 .cardtxt {
   color: #999999;
@@ -229,4 +231,51 @@ nav {
 }
 #box4cng {
   background-color: #fbeaca;
+}
+
+/* ................................................................ */
+
+/* ................................................................ */
+
+/* ................................................................ */
+
+/* Upconingsrv code start here */
+
+.sendwhat {
+  border: none;
+  height: 30px;
+  background-color: #38a349;
+}
+
+.sendwhat img {
+  height: 15px;
+}
+.usrbox1 {
+  background-color: #fff;
+  border: 1px solid #ebebf7;
+}
+.h5usr {
+  color: #4e5586;
+  font-size: 18px;
+}
+.floatbtn {
+  background-color: #dbd5fd;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  color: #4e5586;
+  font-size: 13px;
+  padding: 8px 12px;
+}
+.grayarea {
+  color: #8d8d8d;
+  font-weight: 400;
+  font-size: 16px;
+}
+.inputarea {
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 400;
+}
+.nosend {
+  background-color: #f8d3d8;
 }

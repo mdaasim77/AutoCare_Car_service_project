@@ -3,7 +3,7 @@ import React from "react";
 export default function Job_CardPipeline() {
   return (
     <>
-      <div className="row">
+      <div className="row ">
         {/* job pipeline box 1 code start*/}
         <div className=" col-lg-6 col-sm-12">
           <div>
@@ -130,6 +130,120 @@ export default function Job_CardPipeline() {
                   <h5>Type: Service</h5>
                 </div>
               </div>
+              <div className="card m-4">
+                <div className="d-flex mt-3">
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Intake</h6>
+                  </div>
+
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-3 "
+                  ></div>
+
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Estimate</h6>
+                  </div>
+
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-3 "
+                  ></div>
+
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Waiting Approval</h6>
+                  </div>
+
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-3 "
+                  ></div>
+
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Billing</h6>
+                  </div>
+
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-3 "
+                  ></div>
+
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Delivered</h6>
+                  </div>
+                </div>
+                <div className="d-flex ms-4">
+                  <img src="\assets\profile.svg" alt="" />
+                  <div className="mx-5 mt-3">
+                    <h2>Mohd Aasim</h2>
+                    <p className="cardtxt cardtxt1">Today, 10:30 AM</p>
+                    <p className="cardtxt mb-2">Job Card Number: JB000L</p>
+                  </div>
+                </div>
+                <hr className="m-4" />
+                <div className="d-flex justify-content-around">
+                  <h5>Tata Altroz</h5>
+                  <h5>ODO: 23562</h5>
+                  <h5>Type: Service</h5>
+                </div>
+              </div>
+              <div className="card m-4">
+                <div className="d-flex mt-3">
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Intake</h6>
+                  </div>
+
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-3 "
+                  ></div>
+
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Estimate</h6>
+                  </div>
+
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-3 "
+                  ></div>
+
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Waiting Approval</h6>
+                  </div>
+
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-3 "
+                  ></div>
+
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Billing</h6>
+                  </div>
+
+                  <div
+                    className="horizontalline border rounded-3 border-dark h-25
+                    mt-3 "
+                  ></div>
+
+                  <div className="pipelinecardptag border m-0">
+                    <h6>Delivered</h6>
+                  </div>
+                </div>
+                <div className="d-flex ms-4">
+                  <img src="\assets\profile.svg" alt="" />
+                  <div className="mx-5 mt-3">
+                    <h2>Mohd Aasim</h2>
+                    <p className="cardtxt cardtxt1">Today, 10:30 AM</p>
+                    <p className="cardtxt mb-2">Job Card Number: JB000L</p>
+                  </div>
+                </div>
+                <hr className="m-4" />
+                <div className="d-flex justify-content-around">
+                  <h5>Tata Altroz</h5>
+                  <h5>ODO: 23562</h5>
+                  <h5>Type: Service</h5>
+                </div>
+              </div>
 
               {/*card code start */}
             </div>
@@ -149,7 +263,10 @@ export default function Job_CardPipeline() {
             </div>
             <div className="row ">
               <div className="col-xl-6 col-sm-12">
-                <div id="box1cng" className="m-1 border rounded-1 me-1">
+                <div
+                  id="box1cng"
+                  className="m-1 border rounded-1 me-xl-1 me-sm-4"
+                >
                   <div className="w-50 mx-5 mt-3">
                     <h2 className="inp">In-Progress</h2>
                   </div>
@@ -188,7 +305,10 @@ export default function Job_CardPipeline() {
             </div>
             <div className="row">
               <div className="col-xl-6 col-sm-12 ">
-                <div id="box3cng" className="m-1 border rounded-1 me-1  ">
+                <div
+                  id="box3cng"
+                  className="m-1 border rounded-1 me-xl-1 me-sm-4 "
+                >
                   <div className="w-50 mx-5 mt-3">
                     <h2 className="inp">In-Progress</h2>
                   </div>
