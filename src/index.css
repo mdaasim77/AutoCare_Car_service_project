@@ -346,9 +346,26 @@ nav {
 
 /* Side bar code start here */
 
-.sidebarbox {
-  width: 106%;
+.sidebarlower {
+  background-color: #4e5586;
+  height: 100%;
 }
-.imglogo {
-  padding-bottom: 10%;
+.orange:hover {
+  background-color: #737aac;
+  border: 1px solid #ff914d;
+  border-radius: 12px;
+}
+
+.orange {
+  border-bottom: 1px solid gray;
+}
+.orgimg {
+  height: 24px;
+}
+.txtor {
+  color: #fff;
+  font-size: 22px;
+}
+.txtor:hover {
+  color: #ff914d;
 }
