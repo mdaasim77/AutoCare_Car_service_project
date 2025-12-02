@@ -15,6 +15,13 @@ html {
 nav {
   background-color: #4e5586;
 }
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 16.66%;
+  width: 83.33%;
+  z-index: 1200;
+}
 .nav-box1 {
   width: 50%;
   padding: 5px;
@@ -122,6 +129,11 @@ nav {
   font-weight: 600;
   border: 1px solid #bfbfbf;
   border-radius: 8px;
+}
+
+.main-area {
+  margin-left: 16.66%;
+  padding: 100px;
 }
 
 /* ................................................................ */
@@ -346,6 +358,15 @@ nav {
 
 /* Side bar code start here */
 
+.sidebar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16.66%;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 1000;
+}
 .sidebarlower {
   background-color: #4e5586;
   height: 100%;

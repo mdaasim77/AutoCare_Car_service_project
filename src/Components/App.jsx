@@ -11,10 +11,10 @@ export default function App() {
   return (
     <>
       <div className="row g-0">
-        <div className="col-2">
+        <div className="col-2 sidebar-fixed">
           <Sidebar />
         </div>
-        <div className="col-10">
+        <div className="col-10 main-area">
           <Navbar />
           <DB_Card />
           <Job_CardPipeline />
