@@ -4,15 +4,14 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import DB_Card from "./DB_Card";
 import Job_CardPipeline from "./Job_CardPipeline";
 import UpComingSrv from "./UpComingSrv";
+import Sidebar from "./Sidebar";
 
 export default function Navbar() {
   return (
     <>
       <div className="row  ">
-        <div className="col-2">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
-          assumenda consequuntur ratione commodi, consequatur facere saepe enim
-          magnam repellat ipsa?
+        <div className="col-2 bg-dark">
+          <Sidebar />
         </div>
         <div className="col-10">
           {/* ................................................ */}

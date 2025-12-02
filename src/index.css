@@ -279,3 +279,76 @@ nav {
 .nosend {
   background-color: #f8d3d8;
 }
+
+/* .................................................................................................. */
+
+.qas {
+  color: #4e5586;
+  font-size: 22px;
+  /* margin-bottom: 18px; */
+}
+
+#btn1 {
+  background-color: #1961a3;
+  color: #fff;
+}
+#btn2 {
+  background-color: #f68f71;
+  color: #fff;
+}
+#btn3 {
+  background-color: #4e5586;
+  color: #fff;
+}
+#btn4 {
+  background-color: #998fca;
+  color: #fff;
+}
+#btn5 {
+  background-color: #c58fca;
+  color: #fff;
+}
+#btn6 {
+  background-color: #72a37a;
+  color: #fff;
+}
+
+.recentac {
+  color: #4e5586;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.rightbox2 {
+  color: #4e5586;
+  float: right;
+}
+.datera {
+  background-color: #998fca;
+  margin: 5px auto;
+  width: 80%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
+.inv {
+  font-size: 18px;
+  color: #2c2c2c;
+}
+.hoverpart:hover {
+  background-color: #ddddeb;
+}
+
+/* ................................................................ */
+
+/* ................................................................ */
+
+/* ................................................................ */
+
+/* Side bar code start here */
+
+.sidebarbox {
+  width: 106%;
+}
+.imglogo {
+  padding-bottom: 10%;
+}

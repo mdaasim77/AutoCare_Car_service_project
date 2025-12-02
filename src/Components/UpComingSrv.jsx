@@ -3,7 +3,7 @@ import React from "react";
 export default function UpComingSrv() {
   return (
     <>
-      <div className="row  container">
+      <div className="row  container-fluid">
         {/* ================================================================================= */}
         {/* box 1 code start here */}
         {/* ================================================================================= */}
@@ -137,7 +137,73 @@ export default function UpComingSrv() {
         {/* box 2 code start here */}
         {/* ================================================================================= */}
 
-        <div className="col-lg-6 col-sm-12"></div>
+        <div className=" col-lg-6 col-sm-12  d-flex flex-column">
+          <div>
+            <h6 className="qas mt-4 mb-4 fw-medium ms-2">
+              Quick Action & Shortcuts
+            </h6>
+          </div>
+          <div className="d-flex flex-wrap border rounded-2 p-2">
+            <button className="p-1 m-2 P-1 rounded-2 border-0 px-2" id="btn1">
+              + New Card Job
+            </button>
+            <button className="p-1 m-2 P-1 rounded-2 border-0 px-2" id="btn2">
+              + New Customer
+            </button>
+            <button className="p-1 m-2 P-1 rounded-2 border-0 px-2" id="btn3">
+              + New Vehical
+            </button>
+            <button className="p-1 m-2 P-1 rounded-2 border-0 px-2" id="btn4">
+              Send Reminder Now
+            </button>
+            <button className="p-1 m-2 P-1 rounded-2 border-0 px-2" id="btn5">
+              Import Part CSV
+            </button>
+            <button className="p-1 m-2 P-1 rounded-2 border-0 px-2" id="btn6">
+              View Today's Report
+            </button>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 col-sm-12 mt-3">
+              <h6 className="recentac">Recent Activity</h6>
+            </div>
+            <div className="col-lg-6 col-sm-12 mt-3 ">
+              <button className="rightbox2 rounded-2 border">View All</button>
+            </div>
+          </div>
+          <div className="border rounded-2 container-fluid mt-3">
+            <div className="row rounded-2 hoverpart py-2">
+              <div className="col-lg-6 col-sm-12   ">
+                <h6 className="datera rounded-5 text-center">
+                  18 Nov 2025, 10:30 AM
+                </h6>
+              </div>
+              <div className="col-lg-6 col-sm-12">
+                <h6 className=" inv">Invoice INV created ($78)</h6>
+              </div>
+            </div>
+            <div className="row rounded-2 hoverpart py-2">
+              <div className="col-lg-6 col-sm-12   ">
+                <h6 className="datera rounded-5 text-center">
+                  18 Nov 2025, 10:30 AM
+                </h6>
+              </div>
+              <div className="col-lg-6 col-sm-12">
+                <h6 className=" inv">Invoice INV created ($78)</h6>
+              </div>
+            </div>
+            <div className="row rounded-2 hoverpart py-2">
+              <div className="col-lg-6 col-sm-12   ">
+                <h6 className="datera rounded-5 text-center">
+                  18 Nov 2025, 10:30 AM
+                </h6>
+              </div>
+              <div className="col-lg-6 col-sm-12">
+                <h6 className=" inv">Invoice INV created ($78)</h6>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* ================================================================================= */}
         {/* box 2 code end here */}

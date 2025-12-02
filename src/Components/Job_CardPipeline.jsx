@@ -81,7 +81,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -90,7 +90,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -99,7 +99,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -108,7 +108,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -138,7 +138,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -147,7 +147,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -156,7 +156,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -165,7 +165,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -195,7 +195,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -204,7 +204,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -213,7 +213,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
@@ -222,7 +222,7 @@ export default function Job_CardPipeline() {
 
                   <div
                     className="horizontalline border rounded-3 border-dark h-25
-                    mt-3 "
+                      mt-3 "
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
