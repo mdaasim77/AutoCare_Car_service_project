@@ -5,7 +5,7 @@ export default function Sidebar() {
     <>
       <div className="d-flex flex-column">
         <div className="border p-4">
-          <img src="public\assets\logo.svg" alt="" />
+          <img src="assets\logo.svg" alt="" />
         </div>
         <div className="sidebarlower p-2">
           {/* ============================================== */}
@@ -14,7 +14,7 @@ export default function Sidebar() {
           <div className="orange  container my-3 g-0 row">
             <div className=" col-lg-3 col-sm-2 ">
               <img
-                src="public\assets\dashboard.svg"
+                src="assets\dashboard.svg"
                 className="orgimg mt-3 ms-2 "
                 alt=""
               />
@@ -29,7 +29,7 @@ export default function Sidebar() {
           <div className="orange  container my-3 g-0 row">
             <div className=" col-lg-3 col-sm-2 ">
               <img
-                src="public\assets\customer.svg"
+                src="assets\customer.svg"
                 className="orgimg mt-3 ms-2 "
                 alt=""
               />
@@ -44,7 +44,7 @@ export default function Sidebar() {
           <div className="orange  container my-3 g-0 row">
             <div className=" col-lg-3 col-sm-2 ">
               <img
-                src="public\assets\jobcard.svg"
+                src="assets\jobcard.svg"
                 className="orgimg mt-3 ms-2 "
                 alt=""
               />
@@ -59,7 +59,7 @@ export default function Sidebar() {
           <div className="orange  container my-3 g-0 row">
             <div className=" col-lg-3 col-sm-2 ">
               <img
-                src="public\assets\card_2.svg"
+                src="assets\card_2.svg"
                 className="orgimg mt-3 ms-2 "
                 alt=""
               />
@@ -74,7 +74,7 @@ export default function Sidebar() {
           <div className="orange  container my-3 g-0 row">
             <div className=" col-lg-3 col-sm-2 ">
               <img
-                src="public\assets\catalog.svg"
+                src="assets\catalog.svg"
                 className="orgimg mt-3 ms-2 "
                 alt=""
               />
@@ -89,7 +89,7 @@ export default function Sidebar() {
           <div className="orange  container my-3 g-0 row">
             <div className=" col-lg-3 col-sm-2 ">
               <img
-                src="public\assets\reminder.svg"
+                src="assets\reminder.svg"
                 className="orgimg mt-3 ms-2 "
                 alt=""
               />
@@ -104,7 +104,7 @@ export default function Sidebar() {
           <div className="orange  container my-3 g-0 row">
             <div className=" col-lg-3 col-sm-2 ">
               <img
-                src="public\assets\report.svg"
+                src="assets\report.svg"
                 className="orgimg mt-3 ms-2 "
                 alt=""
               />
@@ -119,7 +119,7 @@ export default function Sidebar() {
           <div className="orange  container my-3 g-0 row">
             <div className=" col-lg-3 col-sm-2 ">
               <img
-                src="public\assets\setting.svg"
+                src="assets\setting.svg"
                 className="orgimg mt-3 ms-2 "
                 alt=""
               />
