@@ -6,7 +6,6 @@ import Job_CardPipeline from "./Job_CardPipeline";
 import UpComingSrv from "./UpComingSrv";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
-// import Mediatag from "./Mediatag";
 
 export default function App() {
   return (
@@ -14,7 +13,6 @@ export default function App() {
       <div className="row g-0">
         <div className="col-2 sidebar-fixed">
           <Sidebar />
-          {/* <Mediatag /> */}
         </div>
         <div className="col-10 main-area">
           <Navbar />
