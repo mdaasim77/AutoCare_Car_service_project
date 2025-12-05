@@ -1,12 +1,18 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Navbar({ toggle, navbarClass }) {
   return (
     <>
-      <div className="navbar-fixed">
+      <div className={`navbar-fixed  ${navbarClass}`}>
         <nav className="navbar d-flex ">
           <div className="nav-box1 d-flex text-white  col-lg-8 col-xs-10  justify-content-evenly">
-            <img src="\assets\Menu-btn.svg" alt="" className="p-2 nav-menu" />
+            <img
+              src="\assets\Menu-btn.svg"
+              alt=""
+              className="p-2 nav-menu"
+              style={{ cursor: "pointer" }}
+              onClick={toggle}
+            />
             <div className="search-div p-1  border border-white rounded-2 d-flex align-items-center ">
               <input
                 type="search"

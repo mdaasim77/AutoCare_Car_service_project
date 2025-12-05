@@ -15,6 +15,15 @@ html {
 nav {
   background-color: #4e5586;
 }
+.navbar-full {
+  position: fixed;
+  top: 0;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 1200;
+  transition: 1s ease-in-out;
+  /* transition: 1s ease-in; */
+}
 .navbar-fixed {
   position: fixed;
   top: 0;
@@ -130,10 +139,16 @@ nav {
   border: 1px solid #bfbfbf;
   border-radius: 8px;
 }
-
+.main_full {
+  width: 100%;
+  transition: width 0.3s ease-in-out;
+  padding: 100px;
+}
 .main-area {
   margin-left: 16.66%;
   padding: 100px;
+
+  transition: width 0.3s ease-in-out;
 }
 
 /* ................................................................ */
@@ -357,7 +372,15 @@ nav {
 /* ................................................................ */
 
 /* Side bar code start here */
+.sidebarzero {
+  width: 0 !important;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
 
+  transition: width 1s ease-in-out;
+}
 .sidebar-fixed {
   position: fixed;
   top: 0;
@@ -366,6 +389,7 @@ nav {
   height: 100vh;
   overflow-y: auto;
   z-index: 1000;
+  transition: width 1s ease-in-out;
 }
 .sidebarlower {
   background-color: #4e5586;
