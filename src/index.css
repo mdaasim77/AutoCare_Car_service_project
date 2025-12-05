@@ -142,11 +142,11 @@ nav {
 .main_full {
   width: 100%;
   transition: width 0.3s ease-in-out;
-  padding: 100px;
+  padding: 100px 20px;
 }
 .main-area {
   margin-left: 16.66%;
-  padding: 100px;
+  padding: 100px 50px;
 
   transition: width 0.3s ease-in-out;
 }
