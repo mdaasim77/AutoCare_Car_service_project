@@ -371,6 +371,13 @@ nav {
 /* ................................................................ */
 
 /* Side bar code start here */
+
+.imageicon {
+  height: 86px;
+  padding: 12px 12px;
+  /* background-image: url("assets\logo.svg"); */
+}
+
 .sidebarzero {
   width: 0 !important;
   visibility: hidden;

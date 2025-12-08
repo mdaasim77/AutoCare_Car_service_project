@@ -4,7 +4,7 @@ export default function Sidebar() {
   return (
     <>
       <div className="d-flex flex-column">
-        <div className="border p-4">
+        <div className="border imageicon ">
           <img src="assets\logo.svg" alt="" />
         </div>
         <div className="sidebarlower p-2">
