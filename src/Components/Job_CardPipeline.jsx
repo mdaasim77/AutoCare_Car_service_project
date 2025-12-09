@@ -74,9 +74,9 @@ export default function Job_CardPipeline() {
             <div className="border purpleclr rounded-4 ms-4">
               {/*card code start */}
               <div className="card m-4">
-                <div className="d-flex mt-3">
+                <div className="d-flex mt-3 ms-3">
                   <div className="pipelinecardptag border m-0">
-                    <h6>Intake</h6>
+                    <h6 className="linecode">Intake</h6>
                   </div>
 
                   <div
@@ -85,7 +85,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Estimate</h6>
+                    <h6 className="linecode">Estimate</h6>
                   </div>
 
                   <div
@@ -94,7 +94,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Waiting Approval</h6>
+                    <h6 className="linecode">Waiting Approval</h6>
                   </div>
 
                   <div
@@ -103,7 +103,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Billing</h6>
+                    <h6 className="linecode">Billing</h6>
                   </div>
 
                   <div
@@ -112,7 +112,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Delivered</h6>
+                    <h6 className="linecode">Delivered</h6>
                   </div>
                 </div>
                 <div className="d-flex ms-4">
@@ -131,9 +131,9 @@ export default function Job_CardPipeline() {
                 </div>
               </div>
               <div className="card m-4">
-                <div className="d-flex mt-3">
+                <div className="d-flex mt-3 ms-3">
                   <div className="pipelinecardptag border m-0">
-                    <h6>Intake</h6>
+                    <h6 className="linecode">Intake</h6>
                   </div>
 
                   <div
@@ -142,7 +142,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Estimate</h6>
+                    <h6 className="linecode">Estimate</h6>
                   </div>
 
                   <div
@@ -151,7 +151,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Waiting Approval</h6>
+                    <h6 className="linecode">Waiting Approval</h6>
                   </div>
 
                   <div
@@ -160,7 +160,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Billing</h6>
+                    <h6 className="linecode">Billing</h6>
                   </div>
 
                   <div
@@ -169,7 +169,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Delivered</h6>
+                    <h6 className="linecode">Delivered</h6>
                   </div>
                 </div>
                 <div className="d-flex ms-4">
@@ -186,11 +186,11 @@ export default function Job_CardPipeline() {
                   <h5>ODO: 23562</h5>
                   <h5>Type: Service</h5>
                 </div>
-              </div>
+              </div>{" "}
               <div className="card m-4">
-                <div className="d-flex mt-3">
+                <div className="d-flex mt-3 ms-3">
                   <div className="pipelinecardptag border m-0">
-                    <h6>Intake</h6>
+                    <h6 className="linecode">Intake</h6>
                   </div>
 
                   <div
@@ -199,7 +199,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Estimate</h6>
+                    <h6 className="linecode">Estimate</h6>
                   </div>
 
                   <div
@@ -208,7 +208,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Waiting Approval</h6>
+                    <h6 className="linecode">Waiting Approval</h6>
                   </div>
 
                   <div
@@ -217,7 +217,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Billing</h6>
+                    <h6 className="linecode">Billing</h6>
                   </div>
 
                   <div
@@ -226,7 +226,7 @@ export default function Job_CardPipeline() {
                   ></div>
 
                   <div className="pipelinecardptag border m-0">
-                    <h6>Delivered</h6>
+                    <h6 className="linecode">Delivered</h6>
                   </div>
                 </div>
                 <div className="d-flex ms-4">
@@ -244,7 +244,6 @@ export default function Job_CardPipeline() {
                   <h5>Type: Service</h5>
                 </div>
               </div>
-
               {/*card code start */}
             </div>
           </div>

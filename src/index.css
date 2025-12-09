@@ -167,6 +167,11 @@ nav {
   font-weight: 300;
   text-align: center;
 }
+.linecode {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 4px;
+}
 .pipelinecardptag:hover {
   background-color: #034f95;
   color: #fff;
