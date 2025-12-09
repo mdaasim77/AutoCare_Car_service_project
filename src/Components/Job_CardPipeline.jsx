@@ -13,55 +13,55 @@ export default function Job_CardPipeline() {
                 Job Card Pipeline
               </h4>
               <div className="col-md-6 col-sm-12 row ms-2">
-                <div class="dropdown col-md-6 col-sm-12">
+                <div className="dropdown col-md-6 col-sm-12">
                   <button
-                    class="dropdwnbtn dropdown-toggle "
+                    className="dropdwnbtn dropdown-toggle "
                     type="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Today
                   </button>
-                  <ul class="dropdown-menu">
+                  <ul className="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Action
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Another action
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Something else here
                       </a>
                     </li>
                   </ul>
                 </div>
-                <div class="dropdown col-md-6 col-sm-12">
+                <div className="dropdown col-md-6 col-sm-12">
                   <button
-                    class="dropdwnbtn dropdown-toggle"
+                    className="dropdwnbtn dropdown-toggle"
                     type="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     All Technicians
                   </button>
-                  <ul class="dropdown-menu">
+                  <ul className="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Action
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Another action
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Something else here
                       </a>
                     </li>
