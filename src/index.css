@@ -404,6 +404,7 @@ nav {
 .sidebarlower {
   background-color: #4e5586;
   height: 100%;
+  transition: all 1s ease-in-out;
 }
 .orange:hover {
   background-color: #737aac;
