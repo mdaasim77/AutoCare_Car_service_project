@@ -21,7 +21,7 @@ nav {
   left: 0 !important;
   width: 100% !important;
   z-index: 1200;
-  transition: 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .navbar-fixed {
   position: fixed;
@@ -29,6 +29,7 @@ nav {
   left: 16.66%;
   width: 83.33%;
   z-index: 1200;
+  transition: all 1s ease-in-out;
 }
 .nav-box1 {
   width: 50%;
@@ -140,14 +141,14 @@ nav {
 }
 .main_full {
   width: 100%;
-  transition: width 0.3s ease-in-out;
+  transition: all 1s ease-in-out;
   padding: 100px 20px;
 }
 .main-area {
   margin-left: 16.66%;
   padding: 100px 50px;
 
-  transition: width 0.3s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 /* ................................................................ */
@@ -388,9 +389,7 @@ nav {
   visibility: hidden;
   opacity: 0;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
-
-  transition: width 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .sidebar-fixed {
   position: fixed;
@@ -400,7 +399,7 @@ nav {
   height: 100vh;
   overflow-y: auto;
   z-index: 1000;
-  transition: width 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .sidebarlower {
   background-color: #4e5586;
