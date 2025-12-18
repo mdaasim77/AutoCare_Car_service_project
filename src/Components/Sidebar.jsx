@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -11,33 +12,37 @@ export default function Sidebar() {
           {/* ============================================== */}
           {/* code start */}
           {/* ============================================== */}
-          <div className="orange  container my-3 g-0 row">
-            <div className=" col-lg-3 col-sm-2 ">
-              <img
-                src="assets\dashboard.svg"
-                className="orgimg mt-3 ms-2 "
-                alt=""
-              />
+          <Link to="/dashboard" style={{ textDecoration: "none" }}>
+            <div className="orange  container my-3 g-0 row">
+              <div className=" col-lg-3 col-sm-2 ">
+                <img
+                  src="assets\dashboard.svg"
+                  className="orgimg mt-3 ms-2 "
+                  alt=""
+                />
+              </div>
+              <div className="col-lg-9 col-sm-10 mt-1">
+                <h6 className="txtor mb-2 p-2 my-0">Dashboard</h6>
+              </div>
             </div>
-            <div className="col-lg-9 col-sm-10 mt-1">
-              <h6 className="txtor mb-2 p-2 my-0">Dashboard</h6>
-            </div>
-          </div>
+          </Link>
           {/* ============================================== */}
           {/* code complete */}
           {/* ============================================== */}
-          <div className="orange  container my-3 g-0 row">
-            <div className=" col-lg-3 col-sm-2 ">
-              <img
-                src="assets\customer.svg"
-                className="orgimg mt-3 ms-2 "
-                alt=""
-              />
+          <Link to="/customer" style={{ textDecoration: "none" }}>
+            <div className="orange  container my-3 g-0 row">
+              <div className=" col-lg-3 col-sm-2 ">
+                <img
+                  src="assets\customer.svg"
+                  className="orgimg mt-3 ms-2 "
+                  alt=""
+                />
+              </div>
+              <div className="col-lg-9 col-sm-10 mt-1">
+                <h6 className="txtor mb-2 p-2 my-0">Customers</h6>
+              </div>
             </div>
-            <div className="col-lg-9 col-sm-10 mt-1">
-              <h6 className="txtor mb-2 p-2 my-0">Customers</h6>
-            </div>
-          </div>
+          </Link>
           {/* ============================================== */}
           {/* code complete */}
           {/* ============================================== */}

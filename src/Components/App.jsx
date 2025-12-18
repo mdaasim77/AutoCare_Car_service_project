@@ -6,6 +6,8 @@ import Job_CardPipeline from "./Job_CardPipeline";
 import UpComingSrv from "./UpComingSrv";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
+import { Route, Routes } from "react-router-dom";
+import Customer from "./Customer";
 
 export default function App() {
   const [responsiveSideBar, setResponsiveSideBar] = useState(false);
@@ -20,9 +22,19 @@ export default function App() {
             toggle={() => setResponsiveSideBar(!responsiveSideBar)}
             navbarClass={responsiveSideBar ? "navbar-full" : "navbar-normal"}
           />
-          <DB_Card />
-          <Job_CardPipeline />
-          <UpComingSrv />
+          <Routes>
+            <Route
+              path="/dashboard"
+              element={
+                <>
+                  <DB_Card />
+                  <Job_CardPipeline />
+                  <UpComingSrv />
+                </>
+              }
+            />
+            <Route path="/customer" element={<Customer />} />
+          </Routes>
         </div>
       </div>
     </>
