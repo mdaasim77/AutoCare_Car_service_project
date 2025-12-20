@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Job_CardPipeline() {
+export default function JobPipeline() {
   return (
     <>
       <div className="row ">

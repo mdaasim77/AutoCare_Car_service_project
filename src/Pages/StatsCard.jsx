@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DB_Card() {
+export default function StatsCard() {
   return (
     <>
       <div className="row g-4 m-3">

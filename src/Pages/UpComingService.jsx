@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function UpComingSrv() {
+export default function UpComingService() {
   return (
     <>
       <div className="row  container-fluid">
