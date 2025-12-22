@@ -449,7 +449,27 @@ nav {
 
 @media (max-width: 750px) {
   .customerpage {
-    /* background-color: #1631ab; */
     margin-top: 50px;
   }
+}
+
+.hc {
+  font-size: 12px;
+  font-weight: 500;
+}
+.hc b {
+  color: #ff914d;
+  font-size: 12px;
+  font-weight: 500;
+}
+#exportbtn {
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+.filter {
+  border: 1px solid gray;
+  border-radius: 8px;
+  color: white;
+  background-color: #4e5586;
 }
