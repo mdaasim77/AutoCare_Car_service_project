@@ -3,15 +3,17 @@ import React from "react";
 export default function Customer() {
   return (
     <>
-      <div className="container">
-        <div className="border border-primary row ">
-          <div className="col-md-6 d-flex flex-column border ">
-            <div>
-              <h2 className="fs-6">Home Customers</h2>
-            </div>
-            <div>2</div>
+      <div className="customerpage">
+        <div>
+          <h6>Home {">"} Customers</h6>
+        </div>
+        <div className="bg-danger d-flex flex-wrape justify-content-between ">
+          <h6>Customer Details</h6>
+          <div>
+            <button>Export</button>
+            <button>Filter</button>
+            <button>+ Add Customer</button>
           </div>
-          <div className="col-md-6">btn</div>
         </div>
       </div>
     </>

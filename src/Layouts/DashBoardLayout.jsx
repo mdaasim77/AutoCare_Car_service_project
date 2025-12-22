@@ -56,7 +56,7 @@ export default function DashboardLayout() {
         />
 
         {/* Pages will render here */}
-        <div style={{ marginTop: "90px" }}>
+        <div style={{ marginTop: "30px" }}>
           <Outlet />
         </div>
       </div>

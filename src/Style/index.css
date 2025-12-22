@@ -147,6 +147,7 @@ nav {
 .main-area {
   margin-left: 16.66%;
   padding: 100px 50px;
+  width: 100%;
 
   transition: all 1s ease-in-out;
 }
@@ -433,6 +434,22 @@ nav {
 /* ................................................................ */
 
 /* customer page code */
-.ola {
+.customerpage {
   width: 100%;
+  margin-right: 200px;
+  /* margin-top: -50px; */
+}
+@media (min-width: 992px) {
+  .customerpage {
+    /* background-color: red; */
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .customerpage {
+    /* background-color: #1631ab; */
+    margin-top: 50px;
+  }
 }
