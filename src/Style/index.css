@@ -436,15 +436,6 @@ nav {
 /* customer page code */
 .customerpage {
   width: 100%;
-  margin-right: 200px;
-  /* margin-top: -50px; */
-}
-@media (min-width: 992px) {
-  .customerpage {
-    /* background-color: red; */
-    margin-top: -20px;
-    margin-left: -20px;
-  }
 }
 
 @media (max-width: 750px) {
@@ -453,13 +444,17 @@ nav {
   }
 }
 
+#hc {
+  font-size: 22px;
+  font-weight: 500;
+}
 .hc {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 500;
 }
 .hc b {
   color: #ff914d;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 500;
 }
 #exportbtn {
@@ -472,4 +467,9 @@ nav {
   border-radius: 8px;
   color: white;
   background-color: #4e5586;
+}
+.styling {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8f8f8f !important;
 }
