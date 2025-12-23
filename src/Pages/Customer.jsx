@@ -1,6 +1,23 @@
-import React from "react";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 export default function Customer() {
+  const [loading, setLoading] = useState(true);
+  const [customers, setCustomers] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://dummyjson.com/users")
+      .then((res) => {
+        setCustomers(res.data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.log(err);
+        setLoading(false);
+      });
+  }, []);
+
   return (
     <>
       <div className="customerpage">
@@ -41,6 +58,78 @@ export default function Customer() {
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <th className="styling" scope="row">
+                  1
+                </th>
+                <td className="styling">Mark</td>
+                <td className="styling">12345678996</td>
+                <td className="styling">mark123@gmail.com</td>
+                <td className="styling">123654789632</td>
+                <td className="styling">Lexus</td>
+                <td className="styling">2018</td>
+                <td className="styling">24523</td>
+                <td className="styling">Insbr 24 Nov 2025</td>
+                <td className="styling">Not sent</td>
+                <td className="d-flex justify-conntent-between">
+                  <div>
+                    <button className="me-2 border rounded-3 border-dark">
+                      Edit
+                    </button>
+                    <button className=" border rounded-3 border-dark">
+                      Vehical
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th className="styling" scope="row">
+                  1
+                </th>
+                <td className="styling">Mark</td>
+                <td className="styling">12345678996</td>
+                <td className="styling">mark123@gmail.com</td>
+                <td className="styling">123654789632</td>
+                <td className="styling">Lexus</td>
+                <td className="styling">2018</td>
+                <td className="styling">24523</td>
+                <td className="styling">Insbr 24 Nov 2025</td>
+                <td className="styling">Not sent</td>
+                <td className="d-flex justify-conntent-between">
+                  <div>
+                    <button className="me-2 border rounded-3 border-dark">
+                      Edit
+                    </button>
+                    <button className=" border rounded-3 border-dark">
+                      Vehical
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th className="styling" scope="row">
+                  1
+                </th>
+                <td className="styling">Mark</td>
+                <td className="styling">12345678996</td>
+                <td className="styling">mark123@gmail.com</td>
+                <td className="styling">123654789632</td>
+                <td className="styling">Lexus</td>
+                <td className="styling">2018</td>
+                <td className="styling">24523</td>
+                <td className="styling">Insbr 24 Nov 2025</td>
+                <td className="styling">Not sent</td>
+                <td className="d-flex justify-conntent-between">
+                  <div>
+                    <button className="me-2 border rounded-3 border-dark">
+                      Edit
+                    </button>
+                    <button className=" border rounded-3 border-dark">
+                      Vehical
+                    </button>
+                  </div>
+                </td>
+              </tr>
               <tr>
                 <th className="styling" scope="row">
                   1
