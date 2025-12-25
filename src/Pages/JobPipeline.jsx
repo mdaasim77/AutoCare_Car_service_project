@@ -5,6 +5,7 @@ export default function JobPipeline() {
     <>
       <div className="row ">
         {/* job pipeline box 1 code start*/}
+
         <div className=" col-lg-6 col-sm-12">
           <div>
             {/* Job pipeline div code start*/}
@@ -35,7 +36,7 @@ export default function JobPipeline() {
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        Something else here
+                        Something else
                       </a>
                     </li>
                   </ul>
